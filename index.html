@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Portfolio — Kylian Cattoire · BTS SIO SLAM</title>
+<meta name="description" content="Portfolio E5 de Kylian Cattoire, étudiant BTS SIO SLAM au lycée Paul Sabatier de Carcassonne."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<style>
+.section-anchor{scroll-margin-top:72px}
+.section-sep{display:flex;align-items:center;gap:12px;margin:28px 0 16px}
+.section-sep h2{font-family:'Syne',sans-serif;font-size:18px;font-weight:800;color:var(--head);white-space:nowrap}
+.section-sep::after{content:'';flex:1;height:1px;background:linear-gradient(90deg,var(--border),transparent)}
+.sep-icon{width:34px;height:34px;border-radius:9px;flex-shrink:0;display:grid;place-items:center;font-size:16px}
+.more-link{display:inline-flex;align-items:center;gap:5px;margin-left:auto;font-size:12px;font-weight:600;color:var(--p);text-decoration:none;white-space:nowrap;transition:opacity .15s}
+.more-link:hover{opacity:.7}
+.vi-mini{background:var(--s2);border:1px solid var(--border);border-radius:10px;padding:13px 15px;position:relative;transition:border-color .15s}
+.vi-mini:hover{border-color:rgba(167,139,250,.22)}
+.vi-mini .vi-num{position:absolute;top:13px;right:13px;width:20px;height:20px;border-radius:5px;background:rgba(167,139,250,.1);display:grid;place-items:center;font-size:10px;font-weight:700;color:var(--p)}
+.vi-mini .vi-date{font-size:11px;color:var(--muted);margin-bottom:3px}
+.vi-mini .vi-src{display:inline-block;font-size:10px;background:rgba(167,139,250,.08);border:1px solid rgba(167,139,250,.15);color:var(--p);padding:1px 6px;border-radius:4px;margin-left:5px}
+.vi-mini .vi-title{font-weight:600;color:var(--head);font-size:13px;margin-bottom:5px;padding-right:26px;line-height:1.4}
+.vi-mini .vi-txt{font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:7px}
+.vi-mini .vi-link{font-size:12px;font-weight:600;color:var(--p);text-decoration:none}
+.vi-mini .vi-link:hover{text-decoration:underline}
+.vi-grid-mini{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:700px){.vi-grid-mini{grid-template-columns:1fr}}
+.env-sec{margin-bottom:16px}
+.env-h{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:var(--g);margin-bottom:7px;display:flex;align-items:center;gap:5px}
+.env-sec p{font-size:13px;color:var(--muted);line-height:1.6}
+.real-img{width:100%;border-radius:8px;border:1px solid rgba(255,255,255,.06);display:block}
+.real-img-link{display:block;margin-bottom:10px}
+.real-img-link:hover .real-img{border-color:rgba(255,255,255,.15)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr">
+    <a class="logo" href="index.html">KC</a>
+    <div class="brand-txt"><h1>Kylian Cattoire</h1><small>BTS SIO SLAM · Lycée Paul Sabatier, Carcassonne</small></div>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#stages">Stages</a>
+      <a href="#projets">Projets</a>
+      <a href="#veille">Veille</a>
+      <a href="cv.html">CV</a>
+    </nav>
+    <a class="cv-btn" href="cv.html">Voir mon CV</a>
+  </div>
+</header>
+
+<div class="page">
+<div>
+
+  <!-- ══ HERO ══ -->
+  <section id="accueil" class="hero fade-in section-anchor">
+    <div class="hero-inner">
+      <div class="ava">K</div>
+      <div style="min-width:0">
+        <div class="hero-name">Kylian Cattoire</div>
+        <div class="hero-sub">BTS SIO · option SLAM · 2ᵉ année</div>
+        <div class="hero-desc">Étudiant de 19 ans passionné par le développement web et la programmation. Actif sur GitHub, je travaille sur des projets full-stack — boutique vintage, plateforme créative. Mes stages m'ont permis de confronter mes connaissances à des environnements professionnels réels.</div>
+        <div class="chips">
+          <span class="chip c">HTML / CSS</span><span class="chip p">JavaScript</span><span class="chip pk">PHP</span>
+          <span class="chip">SQL</span><span class="chip">Excel / VBA</span><span class="chip g">Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nav cards -->
+  <div class="nav-cards" style="margin-top:0;margin-bottom:6px">
+    <a class="nav-card fade-in" href="stages.html"><div class="nav-card-icon">💼</div><div class="nav-card-title">Stages</div><div class="nav-card-sub">E. Leclerc + Logigames</div><div class="nav-card-arrow">→ Page complète</div></a>
+    <a class="nav-card fade-in" href="projets.html"><div class="nav-card-icon">🚀</div><div class="nav-card-title">Projets</div><div class="nav-card-sub">RandomPlay · KyverHost</div><div class="nav-card-arrow">→ Page complète</div></a>
+    <a class="nav-card fade-in" href="veille.html"><div class="nav-card-icon">🔭</div><div class="nav-card-title">Veille</div><div class="nav-card-sub">Informatique quantique 2024–2026</div><div class="nav-card-arrow">→ 10 articles</div></a>
+    <a class="nav-card fade-in" href="cv.html"><div class="nav-card-icon">📄</div><div class="nav-card-title">CV complet</div><div class="nav-card-sub">Parcours, formations, compétences</div><div class="nav-card-arrow">→ Voir le CV</div></a>
+  </div>
+
+  <!-- ══ STAGES ══ -->
+  <div id="stages" class="section-anchor">
+    <div class="section-sep">
+      <div class="sep-icon" style="background:rgba(255,106,171,.1)">💼</div>
+      <h2>Stages professionnels</h2>
+      <a class="more-link" href="stages.html">Page complète →</a>
+    </div>
+  </div>
+
+  <!-- Stage 1 -->
+  <div class="stage fade-in">
+    <div class="stage-head">
+      <div><div class="stage-title">Stage 1 — E. Leclerc, Castelnaudary</div><div class="stage-meta">📅 Du 12 mai au 27 juin 2025 · 7 semaines · Service Comptabilité</div></div>
+      <span class="chip pk">Stage 1</span>
+    </div>
+    <a href="assets/attestation-stage1.png" target="_blank" rel="noopener" class="real-img-link">
+      <img src="assets/attestation-stage1.png" alt="Attestation de stage — E.Leclerc Castelnaudary" class="real-img" style="margin-top:10px"/>
+    </a>
+    <ul class="tl">
+      <li>Gestion et maintenance d'une base de données interne (modélisation, requêtes SQL).</li>
+      <li>Conception d'un système Excel automatisé (macros VBA) pour les tâches récurrentes.</li>
+      <li>Soutien à l'équipe comptable : classement, archivage, gestion numérique.</li>
+      <li>Aide à la résolution de problèmes informatiques. Travail en autonomie.</li>
+    </ul>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0">
+      <div class="img-ph" style="height:110px"><div class="ph-icon">📊</div><span>Capture Excel/VBA<br><small style="opacity:.6">à ajouter</small></span></div>
+      <div class="img-ph" style="height:110px"><div class="ph-icon">🗄️</div><span>Capture base de données<br><small style="opacity:.6">à ajouter</small></span></div>
+    </div>
+    <div class="chips" style="margin-top:10px"><span class="chip">Excel / VBA</span><span class="chip">SQL</span><span class="chip">Gestion parc</span><span class="chip">Support utilisateurs</span></div>
+  </div>
+
+  <!-- Stage 2 -->
+  <div class="stage fade-in">
+    <div class="stage-head">
+      <div><div class="stage-title">Stage 2 — Logigames, Carcassonne</div><div class="stage-meta">📅 Du 05 janvier au 20 février 2026 · 7 semaines · <a href="https://logigames.fr" target="_blank" style="color:var(--c);text-decoration:none;font-weight:600">logigames.fr ↗</a></div></div>
+      <span class="chip c">Stage 2</span>
+    </div>
+    <a href="https://logigames.fr" target="_blank" rel="noopener" class="real-img-link" style="margin-top:10px">
+      <img src="assets/logigames-accueil.png" alt="Site Logigames — jeux de société Carcassonne" class="real-img"/>
+    </a>
+    <ul class="tl">
+      <li>Participation à l'évolution du site web Logigames (HTML/CSS/JS).</li>
+      <li>Mise à jour du catalogue en ligne (boutique, tournois, événements).</li>
+      <li>Référencement des services en ligne et mesure de la visibilité (SEO).</li>
+      <li>Assistance technique aux utilisateurs sur place (matériel, logiciel, réseau).</li>
+    </ul>
+    <a href="assets/attestation-stage2.png" target="_blank" rel="noopener" class="real-img-link" style="margin-top:10px">
+      <img src="assets/attestation-stage2.png" alt="Attestation de stage — Logigames Carcassonne" class="real-img"/>
+    </a>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0">
+      <a href="assets/logigames-boutique.png" target="_blank" rel="noopener">
+        <img src="assets/logigames-boutique.png" alt="Logigames — boutique"
+             style="width:100%;height:auto;border-radius:8px;border:1px solid rgba(255,255,255,.06);display:block"/>
+      </a>
+      <a href="assets/logigames-services.png" target="_blank" rel="noopener">
+        <img src="assets/logigames-services.png" alt="Logigames — services"
+             style="width:100%;height:auto;border-radius:8px;border:1px solid rgba(255,255,255,.06);display:block"/>
+      </a>
+    </div>
+    <div class="chips" style="margin-top:10px"><span class="chip c">HTML/CSS</span><span class="chip p">JavaScript</span><span class="chip">CMS</span><span class="chip">SEO</span><span class="chip">Support utilisateurs</span></div>
+  </div>
+
+  <!-- ══ PROJETS ══ -->
+  <div id="projets" class="section-anchor">
+    <div class="section-sep">
+      <div class="sep-icon" style="background:rgba(77,217,255,.1)">🚀</div>
+      <h2>Projets réalisés</h2>
+      <a class="more-link" href="projets.html">Page complète →</a>
+    </div>
+  </div>
+
+  <!-- Projet 1 — RandomPlay -->
+  <div class="proj fade-in">
+    <div class="proj-title">📼 RandomPlay — Boutique vintage &amp; location</div>
+    <div class="chips" style="margin:5px 0 10px"><span class="chip pk">Projet E5</span><span class="chip p">Full-stack PHP</span></div>
+    <a href="assets/randomplay-accueil.png" target="_blank" rel="noopener" class="real-img-link">
+      <img src="assets/randomplay-accueil.png" alt="RandomPlay — boutique vintage" class="real-img"/>
+    </a>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:10px;line-height:1.6">Boutique vintage en ligne : achat et location de VHS, cassettes, CD, DVD et vinyles. Catalogue avec recherche, comptes utilisateurs, gestion des locations et espace administrateur.</p>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:10px 0">
+      <div class="img-ph" style="height:110px"><div class="ph-icon">📋</div><span>Catalogue<br><small style="opacity:.6">à ajouter</small></span></div>
+      <div class="img-ph" style="height:110px"><div class="ph-icon">⚙️</div><span>Panel admin<br><small style="opacity:.6">à ajouter</small></span></div>
+    </div>
+    <div class="chips" style="margin-top:10px"><span class="chip pk">PHP</span><span class="chip">MySQL</span><span class="chip p">JavaScript</span><span class="chip">HTML/CSS</span><span class="chip g">Git</span></div>
+    <a class="gh" href="https://github.com/kylianFractal" target="_blank" style="margin-top:12px;display:inline-flex;align-items:center;gap:5px;padding:6px 13px;border-radius:7px;font-size:12px;font-weight:600;text-decoration:none;color:var(--c);border:1px solid rgba(77,217,255,.3)">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub — kylianFractal
+    </a>
+  </div>
+
+  <!-- Projet 2 — KyverHost -->
+  <div class="proj fade-in">
+    <div class="proj-title">🌐 KyverHost — Plateforme créative &amp; communautaire</div>
+    <div class="chips" style="margin:5px 0 10px"><span class="chip g">Projet perso</span><span class="chip a" style="font-size:11px">En cours</span></div>
+    <a href="https://kyver-cloud-core.base44.app/" target="_blank" rel="noopener" class="real-img-link">
+      <img src="assets/kyverhost-accueil.png" alt="KyverHost — plateforme créative et communautaire" class="real-img"/>
+    </a>
+    <a href="assets/kyverhost-services.png" target="_blank" rel="noopener" class="real-img-link" style="margin-top:6px">
+      <img src="assets/kyverhost-services.png" alt="KyverHost — Services Pro" class="real-img"/>
+    </a>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:8px;line-height:1.6">Plateforme tout-en-un pour créateurs de jeux et d'assets 3D : publier ses projets, rejoindre la communauté, accéder à une aide professionnelle. Développé en PHP avec un ami.</p>
+    <a href="https://kyver-cloud-core.base44.app/" target="_blank" rel="noopener" style="font-size:12px;color:var(--g);font-weight:600;text-decoration:none;display:inline-block;margin-bottom:8px">🔗 kyver-cloud-core.base44.app ↗</a>
+    <div class="unfinished">Projet en développement actif — certaines fonctionnalités avancées encore en cours de réalisation.</div>
+    <div class="chips" style="margin-top:10px"><span class="chip pk">PHP</span><span class="chip">HTML/CSS</span><span class="chip p">JavaScript</span><span class="chip">Cloud</span></div>
+  </div>
+
+  <!-- ══ VEILLE ══ -->
+  <div id="veille" class="section-anchor">
+    <div class="section-sep">
+      <div class="sep-icon" style="background:rgba(167,139,250,.1)">🔭</div>
+      <h2>Veille — Informatique quantique</h2>
+      <a class="more-link" href="veille.html">13 articles →</a>
+    </div>
+  </div>
+
+  <div class="alert info fade-in">
+    <span class="alert-ico">🔭</span>
+    <div>Veille réalisée sur 2 ans (2024–2026) · 10 articles français vérifiés · Sources : Futura-Sciences, Euronews, Generation-NT, Inria, L'Usine Nouvelle · Mis à jour avril 2026.</div>
+  </div>
+
+  <div class="vi-grid-mini">
+    <div class="vi-mini fade-in">
+      <div class="vi-num">1</div>
+      <div class="vi-date">22 avr. 2026 <span class="vi-src">Futura-Sciences</span></div>
+      <div class="vi-title">Lucy au CEA : l'Europe entre dans le calcul hybride quantique</div>
+      <div class="vi-txt">Inaugurée le 14 avril 2026, Lucy (Quandela, 12 qubits photoniques) est couplée au supercalculateur Joliot-Curie. 80 % de composants européens, 5 kW seulement de consommation.</div>
+      <a class="vi-link" href="https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-ordinateur-quantique-lucy-allie-supercalculateur-joliot-curie-duo-pourrait-accelerer-percees-majeures-133845/" target="_blank" rel="noopener">→ Futura-Sciences.com</a>
+    </div>
+    <div class="vi-mini fade-in">
+      <div class="vi-num">2</div>
+      <div class="vi-date">27 mars 2026 <span class="vi-src">Euronews.fr</span></div>
+      <div class="vi-title">Google : la menace quantique sur RSA est proche</div>
+      <div class="vi-txt">Migration PQC fixée à 2029 chez Google. Alerte sur les attaques « stocker maintenant, déchiffrer plus tard ».</div>
+      <a class="vi-link" href="https://fr.euronews.com/next/2026/03/27/google-avertit-la-nouvelle-ere-de-linformatique-quantique-menace-plus-quon-ne-croit" target="_blank" rel="noopener">→ Euronews.fr</a>
+    </div>
+    <div class="vi-mini fade-in">
+      <div class="vi-num">3</div>
+      <div class="vi-date">16 janv. 2026 <span class="vi-src">Futura-Sciences</span></div>
+      <div class="vi-title">Le quantique sort des labos : ce que 2026 apporte</div>
+      <div class="vi-txt">IBM +1 000 qubits, Google Willow, applications EDF+Pasqal et Roche. L'année de consolidation est là.</div>
+      <a class="vi-link" href="https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-informatique-quantique-sort-laboratoire-ce-2026-va-reellement-apporter-129974/" target="_blank" rel="noopener">→ Futura-Sciences.com</a>
+    </div>
+    <div class="vi-mini fade-in">
+      <div class="vi-num">4</div>
+      <div class="vi-date">Avr. 2025 <span class="vi-src">Forum des Compétences</span></div>
+      <div class="vi-title">Le Q-Day : quand le quantique menace RSA</div>
+      <div class="vi-txt">NSA, ANSSI, NIST renforcent la migration post-quantique. Les attaques "collecter maintenant" sont déjà actives.</div>
+      <a class="vi-link" href="https://www.forum-des-competences.org/quantique-2025/" target="_blank" rel="noopener">→ Forum-des-Compétences.org</a>
+    </div>
+  </div>
+  <div style="margin-top:10px;text-align:right"><a class="section-link" href="veille.html">🔭 Voir les 13 articles →</a></div>
+
+</div><!-- /col principale -->
+
+<!-- SIDEBAR -->
+<aside>
+  <div class="card sb-contact fade-in">
+    <div class="ctitle" style="font-size:14px"><div class="cicon" style="background:rgba(77,217,255,.1)">👤</div>Contact</div>
+    <div class="label">Nom</div><p style="margin-bottom:10px"><strong>Kylian Cattoire</strong> · 19 ans</p>
+    <div class="label">Formation</div><p style="margin-bottom:8px">BTS SIO SLAM · Lycée Paul Sabatier, Carcassonne</p>
+    <div class="label">Email</div><p style="margin-bottom:12px"><a href="mailto:cattoirek@gmail.com" style="color:var(--c);text-decoration:none">cattoirek@gmail.com</a></p>
+    <a class="net-link gh-net" href="https://github.com/kylianFractal" target="_blank">
+      <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+      github.com/kylianFractal
+    </a>
+    <a class="net-link li-net" href="https://www.linkedin.com/in/kylian-cattoire-a55704326/" target="_blank">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      LinkedIn — Kylian Cattoire
+    </a>
+    <div class="divider"></div>
+    <a class="cv-btn" href="cv.html" style="display:block;text-align:center;padding:10px">👁 Voir mon CV complet</a>
+  </div>
+
+  <div class="card fade-in">
+    <div class="ctitle" style="font-size:14px"><div class="cicon" style="background:rgba(251,191,36,.1)">⚠️</div>Documents obligatoires</div>
+    <div style="display:flex;flex-direction:column;gap:7px">
+      <a href="assets/attestation-stage1.png" target="_blank" class="dl pk" style="margin-top:0;display:flex">📄 Attestation Stage 1 (voir)</a>
+      <a href="assets/attestation-stage2.png" target="_blank" class="dl c" style="margin-top:0;display:flex">📄 Attestation Stage 2 (voir)</a>
+      <a href="https://www.inion-web.fr/?p=4702" target="_blank" style="display:block;text-align:center;padding:9px;border-radius:7px;background:rgba(251,191,36,.07);border:1px solid rgba(251,191,36,.2);color:var(--a);font-weight:700;font-size:12px;text-decoration:none;margin-top:4px">📋 Tableau de synthèse</a>
+      <a href="annexe.html" style="display:block;text-align:center;padding:9px;border-radius:7px;background:rgba(167,139,250,.07);border:1px solid rgba(167,139,250,.2);color:var(--p);font-weight:700;font-size:12px;text-decoration:none">🔒 Annexe &amp; preuves de compétences</a>
+    </div>
+  </div>
+
+  <div class="card fade-in">
+    <div class="ctitle" style="font-size:14px"><div class="cicon" style="background:rgba(74,222,128,.1)">📋</div>Référentiel E5 — Bloc 1</div>
+    <div class="cg"><div class="cg-title" style="color:var(--pk)">Patrimoine informatique</div><div class="ci">Recenser et identifier les ressources</div><div class="ci">Exploiter référentiels et normes</div><div class="ci">Gérer les sauvegardes</div><div class="ci">Vérifier le respect des règles</div></div>
+    <div class="cg"><div class="cg-title" style="color:var(--a)">Incidents &amp; assistance</div><div class="ci">Collecter, suivre et orienter</div><div class="ci">Traiter des demandes réseau / système</div><div class="ci">Traiter des demandes applicatives</div></div>
+    <div class="cg"><div class="cg-title" style="color:var(--c)">Présence en ligne</div><div class="ci">Valoriser l'image numérique</div><div class="ci">Référencer les services en ligne</div><div class="ci">Participer à l'évolution d'un site</div></div>
+    <div class="cg"><div class="cg-title" style="color:var(--p)">Mode projet</div><div class="ci">Analyser objectifs et modalités</div><div class="ci">Planifier les activités</div><div class="ci">Évaluer les indicateurs</div></div>
+    <div class="cg"><div class="cg-title" style="color:var(--g)">Mise à disposition</div><div class="ci">Tests d'intégration</div><div class="ci">Déployer un service</div><div class="ci">Accompagner les utilisateurs</div></div>
+    <div class="cg" style="margin-bottom:0"><div class="cg-title">Développement professionnel</div><div class="ci">Environnement d'apprentissage</div><div class="ci">Stratégie de veille</div><div class="ci">Identité &amp; projet professionnel</div></div>
+  </div>
+</aside>
+</div>
+
+<footer>
+  <strong style="color:var(--head)">Kylian Cattoire</strong> — Portfolio E5 BTS SIO SLAM ·
+  Lycée Paul Sabatier, Carcassonne ·
+  <a href="https://github.com/kylianFractal" target="_blank">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/kylian-cattoire-a55704326/" target="_blank">LinkedIn</a> ·
+  <a href="mentions-legales.html">Mentions légales</a>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

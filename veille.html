@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Veille technologique — Kylian Cattoire · Portfolio BTS SIO SLAM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+<style>
+.vi-tag{display:inline-flex;align-items:center;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-right:4px;}
+.tag-new {background:rgba(74,222,128,.1);color:var(--g);border:1px solid rgba(74,222,128,.2);}
+.tag-cryp{background:rgba(251,191,36,.1);color:var(--a);border:1px solid rgba(251,191,36,.2);}
+.tag-hw  {background:rgba(77,217,255,.1);color:var(--c);border:1px solid rgba(77,217,255,.2);}
+.tag-fr  {background:rgba(255,106,171,.1);color:var(--pk);border:1px solid rgba(255,106,171,.2);}
+.veille-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+@media(max-width:700px){.veille-grid{grid-template-columns:1fr;}}
+.vi-full{grid-column:1/-1;background:linear-gradient(135deg,rgba(167,139,250,.05),rgba(77,217,255,.03));border-color:rgba(167,139,250,.18)!important;}
+.vi-full .vi-title{font-size:15px;}
+.vi-full .vi-txt{font-size:13px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hdr">
+    <a class="logo" href="index.html">KC</a>
+    <div class="brand-txt"><h1>Kylian Cattoire</h1><small>BTS SIO SLAM · Lycée Paul Sabatier, Carcassonne</small></div>
+    <nav>
+      <a href="index.html">Accueil</a><a href="stages.html">Stages</a><a href="projets.html">Projets</a>
+      <a href="veille.html" class="active">Veille</a><a href="cv.html">CV</a>
+    </nav>
+    <a class="cv-btn" href="cv.html">Voir mon CV</a>
+  </div>
+</header>
+
+<div class="page">
+<div>
+
+  <div class="page-banner fade-in">
+    <div class="page-banner-icon">🔭</div>
+    <div>
+      <div class="breadcrumb"><a href="index.html">Accueil</a> › Veille technologique</div>
+      <h2>Veille — Informatique quantique</h2>
+      <p>13 articles français réels · Période 2024–2026 · Mis à jour : 28 avril 2026 · Du plus récent au plus ancien</p>
+    </div>
+  </div>
+
+  <div class="alert info fade-in">
+    <span class="alert-ico">🔭</span>
+    <div>
+      <strong>Pourquoi l'informatique quantique ?</strong> — Le quantique est une rupture majeure pour les prochaines décennies : puissance de calcul, cryptographie, et impacts directs sur la sécurité des systèmes d'information. Sources vérifiées : Futura-Sciences, L'Usine Nouvelle, Inria, Forum des Compétences, Orange/AFP.
+    </div>
+  </div>
+
+  <div class="veille-grid">
+
+    <!-- 1 — Futura-Sciences janv. 2026 — PLEINE LARGEUR -->
+    <div class="vi vi-full fade-in">
+      <div class="vi-num">1</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-new">⭐ Plus récent</span><span class="vi-tag tag-hw">Consolidation</span></div>
+      <div class="vi-date">16 janvier 2026 <span class="vi-src">Futura-Sciences</span></div>
+      <div class="vi-title">L'informatique quantique sort du laboratoire : ce que 2026 va réellement apporter</div>
+      <div class="vi-txt">
+        2026 est présentée comme l'année de la consolidation : le quantique quitte les labos pour l'ingénierie réelle des processeurs. IBM a déployé des puces dépassant les 1 000 qubits supraconducteurs, Google revendique des calculs impossibles pour tout supercalculateur classique. Des applications concrètes émergent dans la pharmacie (Roche / Google Quantum AI), la logistique et l'énergie (EDF + Pasqal). En revanche, la cryptographie n'est pas encore menacée en 2026, mais les gouvernements anticipent en finançant la migration post-quantique.
+      </div>
+      <a class="vi-link" href="https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-informatique-quantique-sort-laboratoire-ce-2026-va-reellement-apporter-129974/" target="_blank" rel="noopener">→ Lire sur Futura-Sciences.com</a>
+    </div>
+
+    <!-- 2 — Orange/AFP déc. 2025 -->
+    <div class="vi fade-in">
+      <div class="vi-num">2</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-hw">Nobel 2025</span></div>
+      <div class="vi-date">Décembre 2025 <span class="vi-src">Orange Actualités / AFP</span></div>
+      <div class="vi-title">Nobel de physique 2025 : le quantique n'en est qu'à ses balbutiements</div>
+      <div class="vi-txt">
+        Michel Devoret, prix Nobel 2025 et directeur scientifique de Google Quantum AI, compare le stade actuel aux premiers tubes à vide. Le seuil critique pour des applications réelles : 1 million de qubits stables. Plusieurs pistes technologiques coexistent (supraconducteurs, ions piégés, atomes neutres) mais toutes ont encore des problèmes à résoudre.
+      </div>
+      <a class="vi-link" href="https://actu.orange.fr/societe/high-tech/pour-le-nobel-de-physique-2025-l-ordinateur-quantique-n-en-est-qu-a-ses-balbutiements-CNT000002mfzxz.html" target="_blank" rel="noopener">→ Lire sur Orange Actualités</a>
+    </div>
+
+    <!-- 3 — Futura-Sciences fév. 2026 -->
+    <div class="vi fade-in">
+      <div class="vi-num">3</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-hw">Applications</span></div>
+      <div class="vi-date">5 février 2026 <span class="vi-src">Futura-Sciences</span></div>
+      <div class="vi-title">Les 5 secteurs stratégiques qui utilisent déjà l'ordinateur quantique</div>
+      <div class="vi-txt">
+        Finance, énergie, pharmacie, logistique, chimie. En France : EDF avec des start-ups pour les réseaux, BNP Paribas avec IBM pour le risque. JP Morgan teste un algorithme 1 000 fois plus rapide que le classique. Roche collabore avec Google pour simuler des molécules en quelques jours au lieu de plusieurs mois.
+      </div>
+      <a class="vi-link" href="https://www.futura-sciences.com/tech/actualites/tech-fest-ordinateur-quantique-va-tout-changer-voici-5-secteurs-strategiques-utilisent-deja-130909/" target="_blank" rel="noopener">→ Lire sur Futura-Sciences.com</a>
+    </div>
+
+    <!-- 4 — Forum des Compétences avr. 2025 -->
+    <div class="vi fade-in">
+      <div class="vi-num">4</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-cryp">Cryptographie</span></div>
+      <div class="vi-date">Avril 2025 <span class="vi-src">Forum des Compétences</span></div>
+      <div class="vi-title">2025, l'année du basculement pour la cybersécurité quantique</div>
+      <div class="vi-txt">
+        Le Q-Day — moment où un ordinateur quantique cassera RSA via l'algorithme de Shor — n'est plus théorique. NSA, ANSSI et NIST intensifient les recommandations vers la cryptographie post-quantique. Les cybercriminels pratiquent déjà le « collecter maintenant, déchiffrer plus tard ». Banques et assurances sont en première ligne car elles gèrent des données sensibles sur plusieurs décennies.
+      </div>
+      <a class="vi-link" href="https://www.forum-des-competences.org/quantique-2025/" target="_blank" rel="noopener">→ Lire sur Forum-des-Compétences.org</a>
+    </div>
+
+    <!-- 5 — L'Usine Nouvelle janv. 2025 -->
+    <div class="vi fade-in">
+      <div class="vi-num">5</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-fr">🇫🇷 Start-up française</span></div>
+      <div class="vi-date">29 janvier 2025 <span class="vi-src">L'Usine Nouvelle</span></div>
+      <div class="vi-title">Alice &amp; Bob lève 100 millions d'euros pour industrialiser son ordinateur quantique</div>
+      <div class="vi-txt">
+        La start-up parisienne Alice &amp; Bob boucle 100 M€ auprès d'investisseurs français et européens. La moitié sera investie dans un laboratoire parisien avec salles blanches. Leur approche : des qubits « chats » intrinsèquement plus stables pour réduire les erreurs. Cela confirme la vitalité du quantique français aux côtés de Pasqal et Quandela.
+      </div>
+      <a class="vi-link" href="https://www.usinenouvelle.com/quantique/" target="_blank" rel="noopener">→ Lire sur L'Usine Nouvelle</a>
+    </div>
+
+    <!-- 6 — Futura-Sciences août 2024 -->
+    <div class="vi fade-in">
+      <div class="vi-num">6</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-hw">Correction d'erreurs</span></div>
+      <div class="vi-date">18 août 2024 <span class="vi-src">Futura-Sciences</span></div>
+      <div class="vi-title">L'informatique quantique prête à transformer l'humanité : vers le moment « Spoutnik »</div>
+      <div class="vi-txt">
+        Riverlane (Cambridge) produit le premier microprocesseur dédié à la correction d'erreurs quantiques. Objectif : 1 million d'opérations sans erreur d'ici 2–3 ans, contre 1 000 aujourd'hui. Ce seuil est considéré comme le cap critique pour dépasser les ordinateurs classiques sur des problèmes réels.
+      </div>
+      <a class="vi-link" href="https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-informatique-quantique-prete-transformer-humanite-nous-sommes-quelques-pas-son-moment-spoutnik-115192/" target="_blank" rel="noopener">→ Lire sur Futura-Sciences.com</a>
+    </div>
+
+    <!-- 7 — Inria 2024-2025 -->
+    <div class="vi fade-in">
+      <div class="vi-num">7</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-fr">🇫🇷 Recherche Inria</span></div>
+      <div class="vi-date">2024–2025 <span class="vi-src">Inria.fr</span></div>
+      <div class="vi-title">Le quantique peut-il vraiment résoudre les problèmes d'optimisation complexes ?</div>
+      <div class="vi-txt">
+        L'équipe Inria Bonus étudie l'applicabilité des algorithmes quantiques à l'optimisation multiobjectif (transport, énergie, logistique). Conclusion nuancée : transposer un algorithme classique en quantique n'est pas automatique et les algorithmes classiques peuvent parfois rester supérieurs. Un regard critique utile face aux discours marketing du secteur.
+      </div>
+      <a class="vi-link" href="https://www.inria.fr/fr/informatique-quantique-algorithme-optimisation-multiobjectifs" target="_blank" rel="noopener">→ Lire sur Inria.fr</a>
+    </div>
+
+    <!-- 8 — Futura-Sciences janv. 2025 (prélude 2025) -->
+    <div class="vi fade-in">
+      <div class="vi-num">8</div>
+      <div style="margin-bottom:6px"><span class="vi-tag tag-hw">Contexte historique</span></div>
+      <div class="vi-date">4 janvier 2025 <span class="vi-src">Futura-Sciences</span></div>
+      <div class="vi-title">2024, prélude à l'Année Internationale des Sciences et Technologies Quantiques</div>
+      <div class="vi-txt">
+        Les Nations Unies ont proclamé 2025 Année Internationale du Quantique. L'article retrace les jalons de 2024 : centenaire des ondes de matière de de Broglie, 60 ans des travaux de Bell sur l'intrication, et la puce Willow de Google. Un point de contexte indispensable pour comprendre pourquoi 2025-2026 marque un tournant.
+      </div>
+      <a class="vi-link" href="https://www.futura-sciences.com/sciences/actualites/physique-2024-ete-prelude-annee-internationale-science-technologie-quantiques-118567/" target="_blank" rel="noopener">→ Lire sur Futura-Sciences.com</a>
+    </div>
+
+  </div>
+
+  <p style="font-size:11px;color:rgba(255,255,255,.18);font-style:italic;margin-top:12px;padding-top:10px;border-top:1px solid var(--border)">
+    13 articles réels et vérifiés — Sources : Futura-Sciences, L'Usine Nouvelle, Techniques de l'Ingénieur, Euronews, Generation-NT, Inria · Veille 2024–2026 · Mise à jour : avril 2026
+  </p>
+
+  <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">
+    <a class="section-link" href="projets.html">🚀 Voir les projets →</a>
+    <a class="section-link" href="stages.html">💼 Voir les stages →</a>
+    <a class="section-link" href="index.html" style="color:var(--muted)">← Retour accueil</a>
+  </div>
+</div>
+
+<aside>
+  <div class="card sb-contact fade-in">
+    <div class="ctitle" style="font-size:14px"><div class="cicon" style="background:rgba(77,217,255,.1)">👤</div>Contact</div>
+    <div class="label">Nom</div><p style="margin-bottom:10px"><strong>Kylian Cattoire</strong> · 19 ans</p>
+    <div class="label">Formation</div><p style="margin-bottom:12px">BTS SIO SLAM · Lycée Paul Sabatier, Carcassonne</p>
+    <a class="net-link gh-net" href="https://github.com/kylianFractal" target="_blank"><svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>github.com/kylianFractal</a>
+    <a class="net-link li-net" href="https://www.linkedin.com/in/kylian-cattoire-a55704326/" target="_blank"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>LinkedIn — Kylian Cattoire</a>
+    <div class="divider"></div>
+    <a class="cv-btn" href="cv.html" style="display:block;text-align:center;padding:10px">👁 Voir mon CV</a>
+  </div>
+  <div class="card fade-in">
+    <div class="ctitle" style="font-size:14px"><div class="cicon" style="background:rgba(167,139,250,.1)">🗂️</div>Thèmes couverts</div>
+    <div class="cg"><div class="cg-title" style="color:var(--c)">Matériel &amp; hardware</div><div class="ci">Processeurs IBM, Google Willow</div><div class="ci">Start-ups françaises (Alice &amp; Bob, Pasqal)</div><div class="ci">Correction d'erreurs (Riverlane)</div></div>
+    <div class="cg"><div class="cg-title" style="color:var(--a)">Sécurité &amp; crypto</div><div class="ci">Q-Day et menace sur RSA</div><div class="ci">Standards NIST post-quantiques</div><div class="ci">ANSSI — recommandations françaises</div></div>
+    <div class="cg" style="margin-bottom:0"><div class="cg-title" style="color:var(--g)">Applications industrielles</div><div class="ci">Finance, pharmacie, énergie</div><div class="ci">EDF, BNP Paribas, Roche</div><div class="ci">Recherche Inria (optimisation)</div></div>
+  </div>
+  <div class="card fade-in">
+    <strong style="color:var(--head);font-size:13px">📁 Autres sections</strong>
+    <div style="margin-top:10px;display:flex;flex-direction:column;gap:7px">
+      <a href="stages.html" class="section-link">💼 Stages →</a>
+      <a href="projets.html" class="section-link">🚀 Projets →</a>
+      <a href="cv.html" class="section-link">📄 CV →</a>
+    </div>
+  </div>
+</aside>
+</div>
+
+<footer>
+  <strong style="color:var(--head)">Kylian Cattoire</strong> — Portfolio E5 BTS SIO SLAM ·
+  <a href="https://github.com/kylianFractal" target="_blank">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/kylian-cattoire-a55704326/" target="_blank">LinkedIn</a> ·
+  <a href="mentions-legales.html">Mentions légales</a>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
+
+      <!-- 9 — Generation-NT 1 avr. 2026 -->
+      <div class="vi fade-in">
+        <div class="vi-num">9</div>
+        <div style="margin-bottom:6px"><span class="vi-tag tag-new">⭐ Avr. 2026</span><span class="vi-tag tag-hw">Qubits</span></div>
+        <div class="vi-date">1er avril 2026 <span class="vi-src">Generation-NT.com</span></div>
+        <div class="vi-title">Oratomic : l'informatique quantique pratique bien avant 2030</div>
+        <div class="vi-txt">La start-up Oratomic (Caltech) démontre théoriquement qu'un ordinateur quantique tolérant aux erreurs peut être construit avec seulement 10 000 qubits au lieu des millions estimés jusqu'ici. Cette architecture à atomes neutres rapproche dangereusement la menace sur RSA. La migration post-quantique devient urgente, et non plus seulement prudente.</div>
+        <a class="vi-link" href="https://www.generation-nt.com/actualites/oratomic-qubits-ordinateur-quantique-pratique-2073395" target="_blank" rel="noopener">→ Generation-NT.com</a>
+      </div>
+
+      <!-- 10 — Euronews 27 mars 2026 -->
+      <div class="vi fade-in">
+        <div class="vi-num">10</div>
+        <div style="margin-bottom:6px"><span class="vi-tag tag-new">⭐ Mars 2026</span><span class="vi-tag tag-cryp">Cryptographie</span></div>
+        <div class="vi-date">27 mars 2026 <span class="vi-src">Euronews.fr</span></div>
+        <div class="vi-title">Google avertit : la menace quantique sur la cryptographie est plus proche qu'on croit</div>
+        <div class="vi-txt">Google publie un billet officiel qualifiant les ordinateurs quantiques de menace majeure pour le chiffrement actuel. Calendrier de migration vers la cryptographie post-quantique fixé à 2029. Alerte sur les attaques « stocker maintenant, déchiffrer plus tard ». La France, le Royaume-Uni et les États-Unis ont déjà publié des stratégies nationales de transition.</div>
+        <a class="vi-link" href="https://fr.euronews.com/next/2026/03/27/google-avertit-la-nouvelle-ere-de-linformatique-quantique-menace-plus-quon-ne-croit" target="_blank" rel="noopener">→ Euronews.fr</a>
+      </div>
+
+
+      <!-- 11 — Futura-Sciences 22 avr. 2026 — NOUVEAU ⭐ -->
+      <div class="vi vi-full fade-in">
+        <div class="vi-num">11</div>
+        <div style="margin-bottom:6px">
+          <span class="vi-tag tag-new">⭐ 22 avr. 2026</span>
+          <span class="vi-tag tag-fr">🇫🇷 France / CEA</span>
+        </div>
+        <div class="vi-date">22 avril 2026 <span class="vi-src">Futura-Sciences</span></div>
+        <div class="vi-title">Lucy s'allie au supercalculateur Joliot-Curie : l'Europe entre dans l'ère du calcul hybride quantique</div>
+        <div class="vi-txt">
+          Le 14 avril 2026, Lucy — l'ordinateur quantique photonique de la start-up française Quandela — a été officiellement inauguré au Très Grand Centre de Calcul du CEA à Bruyères-le-Châtel. Couplé au supercalculateur Joliot-Curie, il devient la machine hybride HPC-Quantique la plus puissante d'Europe dans sa catégorie (12 qubits photoniques, 576 opérations/seconde). Accessible gratuitement aux chercheurs et industriels européens, il ne consomme que 5 kW contre 25 kW pour un système supraconducteur équivalent. Une démonstration de souveraineté technologique : 80 % des composants sont d'origine européenne (Quandela à Massy, Attocube en Allemagne).
+        </div>
+        <a class="vi-link" href="https://www.futura-sciences.com/tech/actualites/ordinateur-quantique-ordinateur-quantique-lucy-allie-supercalculateur-joliot-curie-duo-pourrait-accelerer-percees-majeures-133845/" target="_blank" rel="noopener">→ Lire sur Futura-Sciences.com</a>
+      </div>
+
+      <!-- 12 — L'Usine Nouvelle 14 avr. 2026 — NOUVEAU ⭐ -->
+      <div class="vi fade-in">
+        <div class="vi-num">12</div>
+        <div style="margin-bottom:6px">
+          <span class="vi-tag tag-new">⭐ 14 avr. 2026</span>
+          <span class="vi-tag tag-fr">🇫🇷 Inauguration officielle</span>
+        </div>
+        <div class="vi-date">14 avril 2026 <span class="vi-src">L'Usine Nouvelle</span></div>
+        <div class="vi-title">Lucy au CEA : le quantique entre en phase industrielle, mais le financement inquiète</div>
+        <div class="vi-txt">
+          Inauguré par la ministre Anne Le Hénanff, Lucy marque le passage du quantique vers la phase industrielle en France. Mais Pascale Sénellart, co-fondatrice de Quandela, a interpellé la ministre sur l'incertitude du « plan quantique 2 ». La situation des financements est jugée « peu confortable ». Le CEA explore en parallèle trois technologies : photonique (Lucy), atomes neutres (Pasqal) et supraconducteurs, car aucune n'est encore dominante.
+        </div>
+        <a class="vi-link" href="https://www.usinenouvelle.com/technos-et-innovations/recherche/cea/le-plus-puissant-ordinateur-quantique-photonique-au-monde-avec-lucy-le-cea-prepare-les-futures-applications-industrielles.HVCIMJ2XIRESXIK7QWK7CNMNAU.html" target="_blank" rel="noopener">→ Lire sur L'Usine Nouvelle</a>
+      </div>
+
+      <!-- 13 — Techniques de l'Ingénieur 22 avr. 2026 — NOUVEAU ⭐ -->
+      <div class="vi fade-in">
+        <div class="vi-num">13</div>
+        <div style="margin-bottom:6px">
+          <span class="vi-tag tag-new">⭐ 22 avr. 2026</span>
+          <span class="vi-tag tag-eu">Europe souveraine</span>
+        </div>
+        <div class="vi-date">22 avril 2026 <span class="vi-src">Techniques de l'Ingénieur</span></div>
+        <div class="vi-title">Avec Lucy, l'Europe entre dans l'ère du calcul hybride quantique</div>
+        <div class="vi-txt">
+          Le programme PROQCIMA, piloté par la Direction générale de l'armement, prévoit qu'en 2032, au moins deux prototypes d'ordinateurs quantiques universels avec 128 qubits logiques seront livrés par cinq start-ups françaises (Pasqal, Alice & Bob, Quandela, C12 et Quobly). Lucy s'inscrit dans ce contexte stratégique : 12 qubits photoniques couplés à 22 pétaflops de calcul classique pour des applications concrètes en optimisation, chimie et machine learning quantique.
+        </div>
+        <a class="vi-link" href="https://www.techniques-ingenieur.fr/actualite/articles/avec-lucy-leurope-entre-dans-lere-du-calcul-hybride-quantique-158034/" target="_blank" rel="noopener">→ Lire sur Techniques-Ingenieur.fr</a>
+      </div>
+
+

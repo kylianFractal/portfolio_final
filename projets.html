@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Projets — Kylian Cattoire · Portfolio BTS SIO SLAM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ═══ HEADER ═══ -->
+<header>
+  <div class="hdr">
+    <a class="logo" href="index.html">KC</a>
+    <div class="brand-txt">
+      <h1>Kylian Cattoire</h1>
+      <small>BTS SIO SLAM · Lycée Paul Sabatier, Carcassonne</small>
+    </div>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="stages.html">Stages</a>
+      <a href="projets.html">Projets</a>
+      <a href="veille.html">Veille</a>
+      <a href="cv.html">CV</a>
+    </nav>
+    <a class="cv-btn" href="cv.html">Voir mon CV</a>
+  </div>
+</header>
+
+<!-- ═══ PAGE ═══ -->
+<div class="page">
+  <div>
+
+    <!-- Bannière page -->
+    <div class="page-banner fade-in">
+      <div class="page-banner-icon">🚀</div>
+      <div>
+        <div class="breadcrumb"><a href="index.html">Accueil</a> › Projets</div>
+        <h2>Projets réalisés</h2>
+        <p>Développements personnels et académiques — BTS SIO SLAM 2024–2026</p>
+      </div>
+    </div>
+
+    <!-- ── PROJET 1 ── -->
+    <div class="card fade-in" id="projet-randomplay">
+      <div class="ctitle">
+        <div class="cicon" style="background:rgba(255,106,171,.1)">📼</div>
+        RandomPlay — Boutique vintage &amp; location
+        <div style="margin-left:auto;display:flex;gap:5px">
+          <span class="chip pk">Projet E5</span>
+          <span class="chip p">Full-stack</span>
+        </div>
+      </div>
+      <img src="assets/randomplay-accueil.png" alt="RandomPlay — page d'accueil" style="width:100%;border-radius:10px;margin-bottom:14px;border:1px solid rgba(255,255,255,.06)"/>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.6">
+        Boutique vintage en ligne permettant d'acheter ou de louer des supports physiques : VHS, cassettes, CD, DVD et vinyles.
+        Le site propose un catalogue avec recherche par titre/réalisateur, des comptes utilisateurs, un système de location et un espace d'administration.
+      </p>
+      <ul class="tl" style="margin-bottom:14px">
+        <li>Modélisation de la base de données (MCD/MLD, MySQL) — gestion catalogue, utilisateurs, locations.</li>
+        <li>Back-end PHP + requêtes SQL, gestion des sessions et authentification sécurisée.</li>
+        <li>Interface responsive HTML/CSS/JS avec barre de recherche et filtres par type de support.</li>
+        <li>Espace administrateur : gestion du stock, des locations et des comptes.</li>
+        <li>Tests fonctionnels et recette utilisateur.</li>
+      </ul>
+      <div class="screens" style="grid-auto-rows:auto">
+        <div class="img-ph" style="height:130px"><div class="ph-icon">📋</div><span>Catalogue supports<br><small style="opacity:.6">à ajouter</small></span></div>
+        <div class="img-ph" style="height:130px"><div class="ph-icon">👤</div><span>Espace utilisateur<br><small style="opacity:.6">à ajouter</small></span></div>
+        <div class="img-ph" style="height:130px"><div class="ph-icon">⚙️</div><span>Panel admin<br><small style="opacity:.6">à ajouter</small></span></div>
+        <div class="img-ph" style="height:130px"><div class="ph-icon">🗄️</div><span>Schéma BDD<br><small style="opacity:.6">à ajouter</small></span></div>
+      </div>
+      <div class="chips" style="margin-top:12px">
+        <span class="chip pk">PHP</span><span class="chip">MySQL</span>
+        <span class="chip p">JavaScript</span><span class="chip">HTML / CSS</span><span class="chip g">Git</span>
+      </div>
+      <a class="gh" href="https://github.com/kylianFractal" target="_blank" style="margin-top:12px">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub — kylianFractal
+      </a>
+    </div>
+
+    <!-- ── PROJET 2 ── -->
+    <div class="card fade-in" id="projet-kyverhost">
+      <div class="ctitle">
+        <div class="cicon" style="background:rgba(74,222,128,.1)">🌐</div>
+        KyverHost — Plateforme créative &amp; communautaire
+        <div style="margin-left:auto;display:flex;gap:5px">
+          <span class="chip g">Projet perso</span>
+          <span class="chip a" style="font-size:11px">En cours</span>
+        </div>
+      </div>
+      <img src="assets/kyverhost-accueil.png" alt="KyverHost — page d'accueil" style="width:100%;border-radius:10px;margin-bottom:14px;border:1px solid rgba(255,255,255,.06)"/>
+      <p style="font-size:13px;color:var(--muted);margin-bottom:12px;line-height:1.6">
+        Plateforme tout-en-un pour les créateurs de jeux et d'assets 3D : publier ses projets, rejoindre la communauté et accéder à une aide professionnelle.
+        Développé avec un ami, en PHP, le site propose un Studio de publication, une section Communauté et des Services Pro.
+      </p>
+      <ul class="tl" style="margin-bottom:14px">
+        <li>Conception et développement du front en HTML/CSS/JS (design sombre, identité visuelle personnalisée).</li>
+        <li>Back-end PHP : authentification, gestion des utilisateurs et des publications.</li>
+        <li>Sections Studio, Communauté et Services Pro déployées en ligne.</li>
+        <li>Hébergement sur plateforme cloud — accessible à <a href="https://kyver-cloud-core.base44.app/" target="_blank" style="color:var(--c)">kyver-cloud-core.base44.app</a></li>
+      </ul>
+      <div class="unfinished">Projet en développement actif — certaines fonctionnalités avancées sont encore en cours de réalisation.</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0">
+        <a href="assets/kyverhost-accueil.png" target="_blank" rel="noopener">
+          <img src="assets/kyverhost-accueil.png" alt="KyverHost — accueil"
+               style="width:100%;height:auto;border-radius:8px;border:1px solid rgba(255,255,255,.06);display:block"/>
+        </a>
+        <a href="assets/kyverhost-services.png" target="_blank" rel="noopener">
+          <img src="assets/kyverhost-services.png" alt="KyverHost — Services Pro"
+               style="width:100%;height:auto;border-radius:8px;border:1px solid rgba(255,255,255,.06);display:block"/>
+        </a>
+      </div>
+      <div class="chips" style="margin-top:12px">
+        <span class="chip pk">PHP</span><span class="chip">HTML/CSS</span>
+        <span class="chip p">JavaScript</span><span class="chip">Cloud</span>
+      </div>
+    </div>
+
+    <!-- Liens nav -->
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:4px">
+      <a class="section-link" href="stages.html">💼 Voir les stages →</a>
+      <a class="section-link" href="veille.html">🔭 Voir la veille →</a>
+      <a class="section-link" href="index.html" style="color:var(--muted)">← Retour accueil</a>
+    </div>
+
+  </div>
+
+  <!-- ══ SIDEBAR ══ -->
+  <aside>
+    <div class="card sb-contact fade-in">
+      <div class="ctitle" style="font-size:14px">
+        <div class="cicon" style="background:rgba(77,217,255,.1)">👤</div>
+        Contact
+      </div>
+      <div class="label">Nom</div>
+      <p style="margin-bottom:10px"><strong>Kylian Cattoire</strong> · 19 ans</p>
+      <div class="label">Formation</div>
+      <p style="margin-bottom:12px">BTS SIO SLAM · Lycée Paul Sabatier, Carcassonne</p>
+      <a class="net-link gh-net" href="https://github.com/kylianFractal" target="_blank">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        github.com/kylianFractal
+      </a>
+      <a class="net-link li-net" href="https://www.linkedin.com/in/kylian-cattoire-a55704326/" target="_blank">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        LinkedIn — Kylian Cattoire
+      </a>
+      <div class="divider"></div>
+      <a class="cv-btn" href="cv.html" style="display:block;text-align:center;padding:10px">👁 Voir mon CV</a>
+    </div>
+
+    <div class="card fade-in">
+      <div class="ctitle" style="font-size:14px">
+        <div class="cicon" style="background:rgba(77,217,255,.1)">🛠️</div>
+        Stack technique
+      </div>
+      <div class="cg">
+        <div class="cg-title" style="color:var(--pk)">Front-end</div>
+        <div class="ci">HTML5 / CSS3</div>
+        <div class="ci">JavaScript (ES6+)</div>
+        <div class="ci">Responsive design</div>
+      </div>
+      <div class="cg">
+        <div class="cg-title" style="color:var(--p)">Back-end</div>
+        <div class="ci">PHP 8 + API REST</div>
+        <div class="ci">Node.js</div>
+        <div class="ci">Gestion sessions / auth</div>
+      </div>
+      <div class="cg" style="margin-bottom:0">
+        <div class="cg-title" style="color:var(--g)">Données & DevOps</div>
+        <div class="ci">MySQL / SQL</div>
+        <div class="ci">Git / GitHub</div>
+        <div class="ci">Linux / réseau</div>
+      </div>
+    </div>
+
+    <div class="card fade-in">
+      <div style="font-size:12px;color:var(--muted);line-height:1.6">
+        <strong style="color:var(--head);font-size:13px">📁 Autres sections</strong>
+        <div style="margin-top:10px;display:flex;flex-direction:column;gap:7px">
+          <a href="stages.html" class="section-link">💼 Stages →</a>
+          <a href="veille.html" class="section-link">🔭 Veille →</a>
+          <a href="cv.html" class="section-link">📄 CV →</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <strong style="color:var(--head)">Kylian Cattoire</strong> — Portfolio E5 BTS SIO SLAM ·
+  Lycée Paul Sabatier, Carcassonne ·
+  <a href="https://github.com/kylianFractal" target="_blank">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/kylian-cattoire-a55704326/" target="_blank">LinkedIn</a> ·
+  <a href="mentions-legales.html">Mentions légales</a>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
